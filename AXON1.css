@@ -1,0 +1,315 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', serif;
+    scroll-behavior: smooth;
+}
+p{
+    font-size: 300;
+    color: #111;
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0,5s;
+    background: #fff;
+
+}
+
+.logo{
+    color: rgb(15, 15, 15);
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+}
+.logo span{
+    color: #0a39b9;
+}
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+
+}
+
+header .navbar li a:hover{
+    color: #0a39b9;
+    border-bottom: 2px solid #0a39b9;
+
+}
+.navbar h2{
+    width: 80px;
+    display: flex;
+}
+img{
+    width: 33px;
+    size: 80px;
+    margin-right: auto;
+}
+ a{
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+
+}
+
+.banniére .contenu li a:hover{
+    color: #0a39b9;
+    border-bottom: 2px solid #0a39b9;
+
+}   
+.banniére{
+    background-color: rgb(5, 5, 5);
+    position: relative;
+    width: 70%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(logo\ AXON\ BTP\ SANS\ SLOGAN\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.banniére .contenu{
+    max-width: 100%;
+    text-align: center;
+}
+.banniére .contenu h2{
+    color: rgb(4, 4, 4);
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.contenu p:nth-child(2){
+    color: rgb(255, 255, 255);
+    font-size: 1,2em;
+    text-align: center;
+}
+.btp1{
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    background: #0a39b9;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0,5s;
+    margin-left: 10px;
+    align-items: centers;
+}
+.btp1:hover{
+    letter-spacing: 4px;
+
+}
+section{
+    padding: 100px;
+}
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-items: space-between;
+}
+
+
+.row .col50{
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+
+}
+.row .col50 h2{
+    margin-top: 20px;
+
+}
+.titre-texte{
+    color: rgb(7, 7, 7);
+    font-size: 3em;
+    font-weight: 300px;
+    text-transform: capitalize;
+    background: rgb(252, 250, 250);
+
+}
+.row .col50 .image img{
+    height: 80%;
+    width: 250px;
+    position:relative ;
+    justify-self: end;
+    justify-content: end;
+    display: flexbox;
+    object-fit: cover;
+    box-shadow: 20px 15px 35px rgb(14, 1, 1);
+    border: 2px solid rgb(233, 230, 230);
+
+}
+.rowls{
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+
+}
+.rowls h3{
+    margin-top: 20px;
+
+}
+.terre{
+    color: rgb(7, 7, 7);
+    font-size: 3em;
+    font-weight: 300px;
+    text-transform: capitalize;
+    background: rgb(252, 250, 250);
+
+}
+.rome{
+    width: 350px;
+    margin: 2px;
+    border: 2px solid rgb(233, 230, 230);
+    box-shadow: 20px 15px 35px rgb(14, 1, 1);
+}
+.rome .rowls .image img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+
+}
+.ifa h2 {
+    color: rgb(7, 7, 7);
+    font-size: 2em;
+    font-weight: 300px;
+    text-transform: capitalize;
+    background: rgb(252, 250, 250);
+
+}
+.ifa {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000;
+    background: #fff;
+}
+.titre-texte{
+    color: rgb(7, 7, 7);
+    font-size: 2em;
+    font-weight: 300px;
+    text-transform: capitalize;
+    background: rgb(252, 250, 250);
+
+}
+.titre-texte span{
+    color: #0a39b9;
+    font-size: 1,5em;
+    font-weight: 700px;
+}
+.titre{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000;
+    background: #fff;
+}
+.contenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.contenu .box{
+    width: 350px;
+    margin: 2px;
+    border: 2px solid rgb(233, 230, 230);
+    box-shadow: 20px 15px 35px rgb(14, 1, 1);
+}
+.contenu .box .inbox{
+    position: relative;
+    width: 80%;
+    height: 300px;
+}
+.contenu .box .inbox img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+
+} 
+.contenu .box .text{
+    text-align: center;
+    font-size: 30px;
+    color: #111;
+}
+.contenu .box .text h4{
+    font-weight: 400;
+}
+.malte{
+    background-image:url(img5.jpg);
+    font-size: 30px;
+    text-decoration: rgb(243, 241, 241);
+    color: #0a39b9;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.malte .swin h3{
+    background-color: rgb(252, 250, 250);
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.malte .swin p{
+    background-color: rgb(252, 250, 250);
+    text-decoration: rgb(0, 26, 255);
+    font-size: 26px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid rgb(20, 7, 136);
+    box-shadow: 20px 15px 35px rgb(14, 1, 1);
+}
+footer{
+    margin-top: 10px;
+    border-top: 5px solid rgb(12, 12, 12);
+    background-color:rgb(255, 255, 255) ;
+    display: inline-block;
+    padding: 30px 100px;
+}
+footer h2{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    display: contents;
+}
+footer .aiarsc{
+    margin-top: 10px;
+    display:inline-flexS;
+    flex-wrap: wrap;
+}
